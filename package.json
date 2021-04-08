@@ -1,0 +1,16 @@
+{
+  "name": "aw-dl",
+  "version": "1.0.0",
+  "description": "downloads the aimware client and launches it",
+  "main": "index.js",
+  "scripts": {
+    "test": "aw-dl.exe",
+    "build": "del /q aw-dl.exe && pkg . --target node14-win-x64"
+  },
+  "author": "",
+  "license": "mpl-2.0",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "bin": "./index.js"
+}
